@@ -1,0 +1,56 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Dependency directories
+node_modules/
+jspm_packages/
+bower_components/
+
+# Build outputs
+build/
+dist/
+out/
+output/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Coverage directories
+coverage/
+.nyc_output
+
+# Data files
+/data/*.json
+/data/*.xlsx
+/data/*.html
+/data/*.md
+/data/*.pdf
+
+# Screenshots
+*.png
+*.jpg
+*.jpeg
+
+# Cache
+.cache/
+.npm/
+.eslintcache
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
